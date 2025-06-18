@@ -2,7 +2,7 @@
 
 # asdf-foc-engine [![Build](https://github.com/b-j-roberts/asdf-foc-engine/actions/workflows/build.yml/badge.svg)](https://github.com/b-j-roberts/asdf-foc-engine/actions/workflows/build.yml) [![Lint](https://github.com/b-j-roberts/asdf-foc-engine/actions/workflows/lint.yml/badge.svg)](https://github.com/b-j-roberts/asdf-foc-engine/actions/workflows/lint.yml)
 
-[foc-engine](https://github.com/b-j-roberts/foc-fun) plugin for the [asdf version manager](https://asdf-vm.com).
+[foc-engine](https://github.com/b-j-roberts/foc-engine) plugin for the [asdf version manager](https://asdf-vm.com).
 
 </div>
 
@@ -15,10 +15,9 @@
 
 # Dependencies
 
-**TODO: adapt this section**
-
 - `bash`, `curl`, `tar`, and [POSIX utilities](https://pubs.opengroup.org/onlinepubs/9699919799/idx/utilities.html).
-- `SOME_ENV_VAR`: set this environment variable in your shell config to load the correct version of tool x.
+- `docker` and `docker compose` [setup](https://docs.docker.com/compose/install/).
+- `jq` and `yq`.
 
 # Install
 
