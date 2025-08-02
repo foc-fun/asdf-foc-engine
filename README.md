@@ -1,8 +1,8 @@
 <div align="center">
 
-# asdf-foc-engine [![Build](https://github.com/b-j-roberts/asdf-foc-engine/actions/workflows/build.yml/badge.svg)](https://github.com/b-j-roberts/asdf-foc-engine/actions/workflows/build.yml) [![Lint](https://github.com/b-j-roberts/asdf-foc-engine/actions/workflows/lint.yml/badge.svg)](https://github.com/b-j-roberts/asdf-foc-engine/actions/workflows/lint.yml)
+# asdf-foc-engine [![Build](https://github.com/foc-fun/asdf-foc-engine/actions/workflows/build.yml/badge.svg)](https://github.com/foc-fun/asdf-foc-engine/actions/workflows/build.yml) [![Lint](https://github.com/foc-fun/asdf-foc-engine/actions/workflows/lint.yml/badge.svg)](https://github.com/foc-fun/asdf-foc-engine/actions/workflows/lint.yml)
 
-[foc-engine](https://github.com/b-j-roberts/foc-engine) plugin for the [asdf version manager](https://asdf-vm.com).
+[foc-engine](https://github.com/foc-fun/foc-engine) plugin for the [asdf version manager](https://asdf-vm.com).
 
 </div>
 
@@ -26,7 +26,7 @@ Plugin:
 ```shell
 asdf plugin add foc-engine
 # or
-asdf plugin add foc-engine https://github.com/b-j-roberts/asdf-foc-engine.git
+asdf plugin add foc-engine https://github.com/foc-fun/asdf-foc-engine.git
 ```
 
 foc-engine:
@@ -52,8 +52,8 @@ install & manage versions.
 
 Contributions of any kind welcome! See the [contributing guide](contributing.md).
 
-[Thanks goes to these contributors](https://github.com/b-j-roberts/asdf-foc-engine/graphs/contributors)!
+[Thanks goes to these contributors](https://github.com/foc-fun/asdf-foc-engine/graphs/contributors)!
 
 # License
 
-See [LICENSE](LICENSE) © [Brandon Roberts](https://github.com/b-j-roberts/)
+See [LICENSE](LICENSE) © [Brandon Roberts](https://github.com/foc-fun/)

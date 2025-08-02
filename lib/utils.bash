@@ -2,7 +2,7 @@
 
 set -euo pipefail
 
-GH_REPO="https://github.com/b-j-roberts/foc-engine"
+GH_REPO="https://github.com/foc-fun/foc-engine"
 TOOL_NAME="foc-engine"
 TOOL_TEST="foc-engine --version"
 
