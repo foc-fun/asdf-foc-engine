@@ -20,7 +20,7 @@ asdf-foc-engine is an asdf plugin for managing installations of the foc-engine t
 **Testing:**
 ```bash
 # Test plugin locally
-asdf plugin test foc-engine https://github.com/foc-fun/asdf-foc-engine.git "foc-engine --version"
+asdf plugin test foc-engine https://github.com/foc-fun/asdf-foc-engine.git "foc-engine version"
 
 # Run GitHub Actions locally (requires act)
 act -j test
@@ -62,7 +62,7 @@ act -j test
 ### Testing Changes
 1. Run linting: `./scripts/lint.bash`
 2. Format code: `./scripts/format.bash`
-3. Test locally: `asdf plugin test foc-engine . "foc-engine --version"`
+3. Test locally: `asdf plugin test foc-engine . "foc-engine version"`
 4. Ensure GitHub Actions pass before merging
 
 ## Important Notes

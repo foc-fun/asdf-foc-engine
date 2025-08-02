@@ -8,7 +8,7 @@
 
 ## About
 
-This plugin enables you to install and manage different versions of foc-engine using the asdf version manager. The foc-engine is a Starknet blockchain application engine written in Go, designed for building and deploying applications on the Starknet blockchain.
+This plugin enables you to install and manage different versions of foc-engine using the asdf version manager. `foc-engine` is the onchain app engine, designed for building and deploying applications on the Starknet blockchain.
 
 # Contents
 
@@ -48,7 +48,7 @@ asdf install foc-engine latest
 asdf global foc-engine latest
 
 # Now foc-engine commands are available
-foc-engine --version
+foc-engine version
 ```
 
 Check [asdf](https://github.com/asdf-vm/asdf) readme for more instructions on how to
@@ -60,7 +60,7 @@ Once installed, you can use foc-engine to build and deploy Starknet applications
 
 ```shell
 # Check installed version
-foc-engine --version
+foc-engine version
 
 # Use foc-engine commands for your Starknet projects
 # (Refer to foc-engine documentation for specific commands)
@@ -78,7 +78,7 @@ For plugin development:
 ./scripts/format.bash
 
 # Test the plugin locally
-asdf plugin test foc-engine . "foc-engine --version"
+asdf plugin test foc-engine . "foc-engine version"
 ```
 
 # Contributing
